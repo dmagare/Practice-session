@@ -19,5 +19,5 @@ $ mvn exec:java -Dexec.mainClass=Package1.Dog
 ```
 Clean maven artifacts:
 ```
-$ mvn cleanp
+$ mvn clean
 ```
