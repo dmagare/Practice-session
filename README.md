@@ -1,4 +1,5 @@
 # DogExample
+Sample project to practice implementing features discussed during lecture
 
 ## Usage
 Clone the repository onto your local system:
