@@ -12,7 +12,7 @@ public class Hello{
 		while (true) {
 			Socket request = server.accept();
 			PrintWriter writer = new PrintWriter(request.getOutputStream());
-			writer.println("Hello,World");
+			writer.println("HTTP/1.1 200 ok\r\nContent-Lenght: 14\r\nContent-Type: plain/text\r\n\r\nHello,World");
 			writer.flush();
 			request.close();
 			}
